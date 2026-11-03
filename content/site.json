@@ -1,0 +1,129 @@
+{
+  "seo": {
+    "titre_onglet": "ONG KINA",
+    "description": "ONG KINA : campagne de sensibilisation contre la maltraitance infantile et Prix KINA de l'Engagement Humanitaire et Social, en Côte d'Ivoire."
+  },
+  "menu": {
+    "campagne": "La campagne",
+    "prix": "Le Prix KINA",
+    "partenaires": "Devenir partenaire"
+  },
+  "banniere": {
+    "image": "images/banniere.jpg",
+    "image_description": "Quatre enfants souriants dans une cour d'école, en tee-shirts blancs KINA",
+    "surtitre": "ONG KINA · Côte d'Ivoire",
+    "titre_debut": "Brisons le",
+    "titre_rouge": "silence,",
+    "titre_vert": "protégeons l'enfance.",
+    "texte": "L'ONG KINA mène une campagne nationale contre la maltraitance infantile et crée le Prix KINA pour distinguer celles et ceux qui protègent les enfants, défendent les femmes et soutiennent les populations vulnérables.",
+    "bouton_1": "Soutenir KINA",
+    "bouton_2": "Découvrir le Prix"
+  },
+  "engagements": [
+    { "titre": "Écouter", "texte": "Donner la parole aux enfants" },
+    { "titre": "Comprendre", "texte": "Repérer les signes de maltraitance" },
+    { "titre": "Protéger", "texte": "Mettre l'enfant à l'abri" },
+    { "titre": "Agir", "texte": "Ensemble, offrons-leur un avenir" }
+  ],
+  "acronyme": {
+    "surtitre": "Ce que signifie KINA",
+    "lettres": [
+      { "lettre": "K", "mot": "Kindness", "explication": "Bienveillance" },
+      { "lettre": "I", "mot": "Inclusion", "explication": "Ne laisser personne de côté" },
+      { "lettre": "N", "mot": "Noblesse", "explication": "Agir avec dignité et intégrité" },
+      { "lettre": "A", "mot": "Action", "explication": "Des résultats concrets sur le terrain" }
+    ]
+  },
+  "campagne": {
+    "surtitre": "Le Projet KINA",
+    "titre_debut": "Sensibiliser contre la",
+    "titre_rouge": "maltraitance infantile",
+    "intro": "Une campagne portée par un livre, qui va à la rencontre des élèves, des étudiants, des lecteurs et du grand public.",
+    "livre": {
+      "auteur": "Isaac Krouman",
+      "titre_couverture": "Malick,",
+      "sous_titre_couverture": "l'enfant du silence",
+      "mention_couverture": "Disponible sur commande",
+      "surtitre": "Avec Malick, l'enfant du silence",
+      "titre": "Un livre pour briser le silence",
+      "texte": "Écrit par Isaac Krouman, ce livre est le point de départ de la campagne : panels, causeries-débats, interventions auprès des jeunes et tournée dans les bibliothèques."
+    },
+    "etapes": [
+      {
+        "titre": "Commande du livre",
+        "texte": "Commandez *Malick, l'enfant du silence* pour soutenir la campagne et faire circuler son message autour de vous.",
+        "bouton_texte": "Commander le livre",
+        "bouton_lien": "https://wa.me/2250748059926?text=Bonjour%2C%20je%20souhaite%20commander%20le%20livre%20%C2%AB%20Malick%2C%20l%27enfant%20du%20silence%20%C2%BB."
+      },
+      { "titre": "Panels et causeries-débats", "texte": "Des rencontres ouvertes, suivies de séances de dédicace, pour parler sans tabou.", "bouton_texte": "", "bouton_lien": "" },
+      { "titre": "Sensibilisation dans les écoles et universités", "texte": "Interventions dans les lycées, collèges et universités.", "bouton_texte": "", "bouton_lien": "" },
+      { "titre": "Campagne médiatique", "texte": "Presse, radio, télévision et réseaux sociaux pour toucher le plus grand nombre.", "bouton_texte": "", "bouton_lien": "" },
+      { "titre": "Tournée dans les bibliothèques", "texte": "Lectures et échanges dans les bibliothèques pour aller à la rencontre des lecteurs, jeunes et adultes.", "bouton_texte": "", "bouton_lien": "" }
+    ]
+  },
+  "prix": {
+    "surtitre": "Distinction",
+    "titre": "Prix KINA de l'Engagement Humanitaire et Social",
+    "intro": "Il récompense les personnes, institutions et organisations dont l'action a contribué de manière remarquable à la protection des enfants, à la promotion des droits des femmes et à l'amélioration des conditions de vie des populations vulnérables.",
+    "devise": "« Honorer ceux qui protègent l'avenir »",
+    "grand_prix": {
+      "titre": "Grand Prix KINA",
+      "texte": "Il distingue une personnalité dont l'engagement a eu un impact national ou international."
+    },
+    "categories": [
+      { "titre": "Protection de l'Enfant", "texte": "Pour une personne ou une organisation qui a développé des initiatives remarquables en faveur des enfants." },
+      { "titre": "Autonomisation des Femmes", "texte": "Pour une personnalité ou une structure qui a contribué à l'émancipation économique et sociale des femmes." },
+      { "titre": "Innovation Sociale", "texte": "Pour des solutions innovantes qui répondent aux défis sociaux." },
+      { "titre": "Jeune Leader Humanitaire", "texte": "Pour un jeune de moins de 35 ans engagé dans l'action sociale." },
+      { "titre": "Institution Engagée", "texte": "Pour une entreprise, une institution publique ou une organisation à la politique sociale exemplaire." },
+      { "titre": "Lifetime Achievement", "texte": "Pour l'ensemble d'une carrière consacrée à l'humanitaire et au développement social." }
+    ],
+    "criteres_titre": "Critères de sélection",
+    "criteres": [
+      { "titre": "Impact social", "texte": "Bénéficiaires touchés, amélioration durable des conditions de vie, résultats mesurables." },
+      { "titre": "Engagement", "texte": "Régularité et durée des actions, sacrifices consentis." },
+      { "titre": "Innovation", "texte": "Originalité de l'approche et réponse efficace à un besoin social." },
+      { "titre": "Intégrité", "texte": "Respect de l'éthique, transparence, réputation du candidat." },
+      { "titre": "Durabilité", "texte": "Pérennité des actions et possibilité de reproduire le modèle." }
+    ],
+    "recompenses_titre": "Ce que reçoit le lauréat",
+    "recompenses": [
+      "Trophée officiel KINA",
+      "Attestation d'honneur",
+      "Dotation financière",
+      "Accompagnement médiatique national",
+      "Titre d'Ambassadeur de la cause de l'enfant pour l'année"
+    ],
+    "solidarite": {
+      "titre": "La chaîne de solidarité",
+      "texte": "Le lauréat reçoit une dotation personnelle. Une autre part est versée à une ONG ou à un projet social de son choix, au service des enfants ou des femmes."
+    },
+    "gouvernance": [
+      { "titre": "Comité d'Orientation", "texte": "Anciens ministres, magistrats, universitaires, leaders religieux, journalistes et représentants de la société civile." },
+      { "titre": "Jury indépendant", "texte": "Défenseurs des droits humains, experts en protection de l'enfant, représentants d'organisations internationales et personnalités reconnues pour leur intégrité." }
+    ],
+    "horizons": [
+      { "periode": "Court terme", "texte": "Devenir la référence nationale des distinctions humanitaires en Côte d'Ivoire." },
+      { "periode": "Moyen terme", "texte": "Étendre le Prix à l'Afrique de l'Ouest." },
+      { "periode": "Long terme", "texte": "Faire du Prix KINA une distinction africaine de référence pour l'enfance, les droits des femmes et l'action humanitaire." }
+    ]
+  },
+  "partenaires": {
+    "surtitre": "Devenir partenaire",
+    "titre": "Protéger l'enfance, c'est l'affaire de tous.",
+    "texte": "Entreprises, institutions, organisations internationales, médias : rejoignez la campagne et le Prix KINA comme partenaire ou sponsor.",
+    "whatsapp_affiche": "(+225) 07 48 05 99 26",
+    "whatsapp_numero": "2250748059926",
+    "email": "issiaka.krouman@gmail.com",
+    "arguments": [
+      { "titre": "Un engagement visible", "texte": "Votre nom associé à une cause qui touche chaque famille, avec une couverture médiatique nationale." },
+      { "titre": "Une politique sociale valorisée", "texte": "Une action concrète au cœur de votre responsabilité sociétale." },
+      { "titre": "Un impact sur le terrain", "texte": "Des actions dans les écoles, les universités et les régions de l'intérieur." },
+      { "titre": "Une gouvernance exigeante", "texte": "Un comité d'orientation et un jury indépendant, garants de la transparence du Prix." }
+    ]
+  },
+  "pied_de_page": {
+    "gauche": "© 2026 ONG KINA",
+    "droite": "Côte d'Ivoire"
+  }
+}

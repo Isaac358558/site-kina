@@ -1,0 +1,179 @@
+:root{
+  /* Couleurs de la campagne « Brisons le silence » : noir, rouge, vert sur blanc. Campagne claire et proche, Prix sur fond noir. */
+  --black:#141414;
+  --black-2:#1F1F1F;
+  --red:#B3202A;
+  --green:#3E7B2C;
+  --paper:#FFFFFF;
+  --soft:#F4F4F2;
+  --ink:#141414;
+  --muted:#5E5E5E;
+  --line:#E3E3E0;
+  --on-dark:#D6D6D2;
+  --display:"Oswald","Bebas Neue","Arial Narrow",Impact,sans-serif;
+  --body:"Mulish","Segoe UI",Helvetica,Arial,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.65}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+h1,h2,h3,h4{font-family:var(--display);margin:0;line-height:1.08;text-wrap:balance;font-weight:600;text-transform:uppercase;letter-spacing:.01em}
+.over{font-size:12.5px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--red)}
+.red{color:var(--red)} .green{color:var(--green)}
+
+/* En-tête */
+.top{background:var(--paper);border-bottom:1px solid var(--line)}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{width:54px;height:auto}
+.brand b{font-family:var(--display);font-size:30px;font-weight:700;letter-spacing:.16em}
+.brand small{display:block;font-size:10.5px;letter-spacing:.2em;color:var(--green);font-weight:800;margin-top:-4px}
+.nav ul{list-style:none;display:flex;gap:24px;margin:0;padding:0;font-size:15px;font-weight:700}
+.nav ul a{text-decoration:none}
+.nav ul a:hover{color:var(--red)}
+.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:48px;align-items:center;padding:56px 0 72px}
+.hero h1{font-size:clamp(50px,7.4vw,92px);font-weight:700;line-height:1}
+.hero h1 .red{display:block}
+.hero h1 .green{display:block}
+.rule{height:5px;width:min(420px,80%);background:var(--black);border-radius:3px;margin:18px 0 0}
+.hero p{color:var(--muted);font-size:19px;max-width:54ch;margin:22px 0 0}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-block;padding:13px 22px;font-weight:800;font-size:14.5px;letter-spacing:.04em;text-decoration:none;border:2px solid currentColor;text-transform:uppercase}
+.btn.gold{background:var(--red);border-color:var(--red);color:#fff}
+.btn.green{background:var(--green);border-color:var(--green);color:#fff}
+.btn:hover{transform:translateY(-1px)}
+.hero-logo{text-align:center}
+.hero-logo img{width:100%;max-width:380px;height:auto}
+.hero-logo p{font-family:var(--display);text-transform:uppercase;font-size:18px;color:var(--ink);margin:10px auto 0;letter-spacing:.03em}
+
+/* Piliers */
+.pillars{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.pillars .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.pillar{padding:24px 18px;text-align:center;border-left:1px solid var(--line)}
+.pillar:first-child{border-left:0}
+.pillar .ic{width:54px;height:54px;border-radius:50%;border:3px solid var(--green);display:grid;place-items:center;margin:0 auto 10px;font-family:var(--display);font-size:24px;color:var(--green);font-weight:700}
+.pillar:nth-child(even) .ic{border-color:var(--red);color:var(--red)}
+.pillar b{font-family:var(--display);text-transform:uppercase;font-size:20px;display:block}
+.pillar span{color:var(--muted);font-size:14.5px}
+
+/* Acronyme */
+.acro-sec{padding:72px 0 0}
+.acro{display:grid;grid-template-columns:repeat(4,1fr);border-top:4px solid var(--black)}
+.acro div{padding:18px 18px 0 0}
+.acro div+div{padding-left:18px;border-left:1px solid var(--line)}
+.acro b{font-family:var(--display);font-size:64px;line-height:1;color:var(--red)}
+.acro div:nth-child(even) b{color:var(--green)}
+.acro span{display:block;font-weight:800;font-size:17px}
+.acro i{font-style:normal;color:var(--muted);font-size:14.5px}
+
+/* Campagne */
+section{scroll-margin-top:16px}
+.campagne{padding:80px 0 40px}
+.head{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:end;margin-bottom:44px}
+.head h2{font-size:clamp(36px,4.8vw,58px)}
+.head p{margin:0;color:var(--muted);font-size:18px}
+.book-band{display:grid;grid-template-columns:240px 1fr;gap:44px;align-items:center;background:var(--soft);border:1px solid var(--line);padding:32px;margin-bottom:56px}
+.cover{aspect-ratio:2/3;background:var(--black);color:#fff;padding:22px 18px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:10px 10px 0 var(--red)}
+.cover .a{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:800}
+.cover .t{font-family:var(--display);font-size:34px;line-height:1.02;font-weight:700;text-transform:uppercase}
+.cover .t em{font-style:normal;color:#7DBE63}
+.cover .g{font-size:11px;letter-spacing:.18em;text-transform:uppercase;border-top:1px solid currentColor;padding-top:8px}
+.book-band h3{font-size:32px}
+.book-band p{color:var(--muted);max-width:60ch}
+.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:4px solid var(--black)}
+.steps li{padding:24px 20px 26px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;align-items:flex-start}
+.steps li:not(:first-child){padding-left:20px;border-left:1px solid var(--line)}
+.steps li .btn{margin-top:14px;font-size:13px;padding:10px 16px}
+.steps .n{font-family:var(--display);font-size:44px;color:var(--red);line-height:1;font-weight:700}
+.steps li:nth-child(even) .n{color:var(--green)}
+.steps h3{font-size:21px;margin:8px 0 6px}
+.steps p{margin:0;color:var(--muted);font-size:15.5px}
+
+/* Prix */
+.prix{background:var(--black);color:#fff;margin-top:72px}
+.prix .wrap{padding-top:96px;padding-bottom:96px}
+.prix .over{color:#E0535B}
+.prix .head p{color:var(--on-dark)}
+.motto{font-family:var(--display);text-transform:uppercase;font-size:clamp(26px,3.2vw,38px);color:#fff;border-left:6px solid var(--red);padding-left:22px;margin:0 0 56px;max-width:30ch}
+.cats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#3A3A3A;border:1px solid #3A3A3A}
+.cat{background:var(--black);padding:26px}
+.cat.grand{grid-column:span 3;background:var(--red);display:grid;grid-template-columns:1fr 1.4fr;gap:32px;align-items:center}
+.cat h3{font-size:22px;color:#fff;margin-bottom:6px}
+.cat:not(.grand) h3{border-top:3px solid var(--green);padding-top:10px;display:inline-block}
+.cat.grand h3{font-size:40px}
+.cat p{margin:0;color:var(--on-dark);font-size:15.5px}
+.cat.grand p{color:#fff}
+.sub{margin-top:80px;display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.sub h3{font-size:30px;color:#fff;margin-bottom:18px}
+.crit{list-style:none;margin:0;padding:0}
+.crit li{display:grid;grid-template-columns:44px 1fr;padding:12px 0;border-top:1px solid #333}
+.crit b{font-family:var(--display);color:#7DBE63;font-size:26px;line-height:1.1}
+.crit strong{display:block}
+.crit span{color:var(--on-dark);font-size:15px}
+.reward{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.reward li{padding:10px 14px;border:1px solid #3A3A3A;border-left:4px solid var(--green);font-weight:600}
+.chain{margin-top:22px;background:var(--green);color:#fff;padding:22px 24px}
+.chain h4{margin:0 0 6px;font-size:24px}
+.chain p{margin:0;font-size:15.5px}
+.gov{margin-top:80px;display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#333}
+.gov div{background:var(--black);padding:28px}
+.gov h3{font-size:28px;margin-bottom:10px}
+.gov p{margin:0;color:var(--on-dark)}
+.horizon{margin-top:80px;display:grid;grid-template-columns:repeat(3,1fr);border-top:4px solid var(--red)}
+.horizon div{padding:22px 22px 0 0}
+.horizon div+div{padding-left:22px;border-left:1px solid #333}
+.horizon .over{display:block;margin-bottom:6px}
+.horizon p{margin:0;font-size:16px}
+
+/* Partenaires */
+.partners{padding:96px 0}
+.partners .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.partners h2{font-size:clamp(34px,4.4vw,52px)}
+.why{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.why li{padding:18px 20px;background:var(--soft);border:1px solid var(--line);border-left:5px solid var(--green)}
+.why li:nth-child(even){border-left-color:var(--red)}
+.why strong{display:block;font-size:17px}
+.why span{color:var(--muted);font-size:15.5px}
+.contact{margin-top:26px;display:grid;gap:12px}
+.contact dt{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--green);font-weight:800}
+.contact dd{margin:0;font-size:19px}
+footer{background:var(--black);color:var(--on-dark);font-size:14px}
+footer .wrap{padding-top:24px;padding-bottom:30px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+@media (prefers-reduced-motion:no-preference){.btn{transition:transform .15s}}
+@media (max-width:900px){
+  .hero,.head,.book-band,.sub,.gov,.partners .wrap{grid-template-columns:1fr}
+  .steps,.cats,.horizon{grid-template-columns:1fr}
+  .pillars .wrap,.acro{grid-template-columns:1fr 1fr}
+  .pillar:nth-child(3){border-left:0}
+  .acro div:nth-child(3){padding-left:0;border-left:0}
+  .steps li,.steps li:not(:first-child){padding:20px 0;border-left:0}
+  .cat.grand{grid-column:auto;grid-template-columns:1fr;gap:10px}
+  .horizon div,.horizon div+div{padding:18px 0;border-left:0;border-bottom:1px solid #333}
+  .cover{max-width:220px}
+  .hero-logo{order:-1}
+  .hero-logo img{max-width:240px}
+}
+
+/* Bannière photo */
+.banner{position:relative;min-height:620px;display:flex;align-items:center;overflow:hidden;background:var(--black)}
+.banner-img{position:absolute;top:0;bottom:0;left:32%;width:68%;height:100%;object-fit:cover;object-position:88% center}
+.banner::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#141414 0%,#141414 32%,rgba(20,20,20,.55) 40%,rgba(20,20,20,0) 50%)}
+.banner-in{position:relative;z-index:1;width:100%}
+.banner-text{max-width:500px;padding:72px 0;color:#fff}
+.banner .over{color:#fff;opacity:.9}
+.banner h1{font-size:clamp(44px,5.6vw,74px);font-weight:700;line-height:1}
+.banner h1 .red{display:block;color:#EE3B45}
+.banner h1 .green{display:block;color:#7CC75A}
+.banner .rule{background:#fff}
+.banner p{color:#E6E6E6;font-size:18.5px;margin:22px 0 0}
+.btn.light{color:#fff}
+@media (max-width:900px){
+  .banner{display:block;min-height:0}
+  .banner-img{position:relative;left:auto;width:100%;height:auto;aspect-ratio:16/10;object-position:78% center}
+  .banner::after{display:none}
+  .banner-text{max-width:none;padding:36px 0 48px}
+}
