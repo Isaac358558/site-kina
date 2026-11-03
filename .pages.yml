@@ -31,7 +31,7 @@ content:
           - { name: image, label: Photo, type: image }
           - { name: image_description, label: Description de la photo (accessibilité), type: string }
           - { name: surtitre, label: Petit texte au-dessus du titre, type: string }
-          - { name: titre_debut, label: Titre (début, en blanc), type: string }
+          - { name: titre_debut, label: "Titre (début, en blanc)", type: string }
           - { name: titre_rouge, label: Titre (partie en rouge), type: string }
           - { name: titre_vert, label: Titre (partie en vert), type: string }
           - { name: texte, label: Texte, type: text }
@@ -71,7 +71,7 @@ content:
             fields:
               - { name: auteur, label: Auteur (couverture), type: string }
               - { name: titre_couverture, label: Titre (couverture), type: string }
-              - { name: sous_titre_couverture, label: Sous-titre (couverture, en vert), type: string }
+              - { name: sous_titre_couverture, label: "Sous-titre (couverture, en vert)", type: string }
               - { name: mention_couverture, label: Mention en bas de couverture, type: string }
               - { name: surtitre, label: Petit titre, type: string }
               - { name: titre, label: Titre, type: string }
