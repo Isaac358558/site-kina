@@ -1,0 +1,130 @@
+{
+  "seo": {
+    "titre_onglet": "KINA NGO | Child Protection in Côte d'Ivoire",
+    "description": "Ivorian child protection NGO fighting child abuse through awareness campaigns and the KINA Prize. Open to international partners and donors.",
+    "lien_langue": "Français"
+  },
+  "menu": {
+    "campagne": "The campaign",
+    "prix": "The KINA Prize",
+    "partenaires": "Become a partner"
+  },
+  "banniere": {
+    "image": "images/banniere.jpg",
+    "image_description": "Four smiling children in a schoolyard, wearing white KINA T-shirts",
+    "surtitre": "KINA NGO · Côte d'Ivoire",
+    "titre_debut": "Break the",
+    "titre_rouge": "silence,",
+    "titre_vert": "protect childhood.",
+    "texte": "KINA is a non-profit organisation in Côte d'Ivoire leading a national campaign against child abuse. It has also created the KINA Prize to honour those who protect children, defend women's rights and support vulnerable communities.",
+    "bouton_1": "Support KINA",
+    "bouton_2": "Discover the Prize"
+  },
+  "engagements": [
+    { "titre": "Listen", "texte": "Give children a voice" },
+    { "titre": "Understand", "texte": "Recognise the signs of abuse" },
+    { "titre": "Protect", "texte": "Keep children safe" },
+    { "titre": "Act", "texte": "Together, let's give them a future" }
+  ],
+  "acronyme": {
+    "surtitre": "What KINA stands for",
+    "lettres": [
+      { "lettre": "K", "mot": "Kindness", "explication": "Caring for others" },
+      { "lettre": "I", "mot": "Inclusion", "explication": "Leaving no one behind" },
+      { "lettre": "N", "mot": "Nobility", "explication": "Acting with dignity and integrity" },
+      { "lettre": "A", "mot": "Action", "explication": "Concrete results on the ground" }
+    ]
+  },
+  "campagne": {
+    "surtitre": "The KINA Project",
+    "titre_debut": "Raising awareness of",
+    "titre_rouge": "child abuse",
+    "intro": "A campaign built around a book, reaching out to secondary school and university students, readers and the general public.",
+    "livre": {
+      "auteur": "Isaac Krouman",
+      "titre_couverture": "Malick,",
+      "sous_titre_couverture": "l'enfant du silence",
+      "mention_couverture": "Available to order",
+      "surtitre": "With Malick, l'enfant du silence (Malick, the child of silence)",
+      "titre": "A book to break the silence",
+      "texte": "Written by Isaac Krouman, this book (in French) is the starting point of the campaign: panel discussions, community talks, sessions with young people and a tour of public libraries."
+    },
+    "etapes": [
+      {
+        "titre": "Order the book",
+        "texte": "Order *Malick, l'enfant du silence* to support the campaign and help spread its message.",
+        "bouton_texte": "Order the book",
+        "bouton_lien": "https://wa.me/2250748059926?text=Hello%2C%20I%20would%20like%20to%20order%20the%20book%20%E2%80%9CMalick%2C%20l%27enfant%20du%20silence%E2%80%9D."
+      },
+      { "titre": "Panels and community talks", "texte": "Open meetings followed by book signings, to talk about abuse without taboo.", "bouton_texte": "", "bouton_lien": "" },
+      { "titre": "Awareness in schools and universities", "texte": "Sessions in secondary schools and universities.", "bouton_texte": "", "bouton_lien": "" },
+      { "titre": "Media campaign", "texte": "Press, radio, television and social media to reach as many people as possible.", "bouton_texte": "", "bouton_lien": "" },
+      { "titre": "Library tour", "texte": "Readings and discussions in libraries to meet readers, young and old.", "bouton_texte": "", "bouton_lien": "" }
+    ]
+  },
+  "prix": {
+    "surtitre": "Award",
+    "titre": "KINA Prize for Humanitarian and Social Commitment",
+    "intro": "It honours individuals, institutions and organisations whose work has made an outstanding contribution to protecting children, advancing women's rights and improving the lives of vulnerable communities.",
+    "devise": "“Honouring those who protect the future”",
+    "grand_prix": {
+      "titre": "KINA Grand Prize",
+      "texte": "It honours a leading figure whose commitment has had a national or international impact."
+    },
+    "categories": [
+      { "titre": "Child Protection", "texte": "For an individual or organisation that has led outstanding initiatives for children." },
+      { "titre": "Women's Empowerment", "texte": "For a person or organisation that has advanced the economic and social empowerment of women." },
+      { "titre": "Social Innovation", "texte": "For innovative solutions to social challenges." },
+      { "titre": "Young Humanitarian Leader", "texte": "For a young person under 35 committed to social action." },
+      { "titre": "Committed Institution", "texte": "For a company, public institution or organisation with an exemplary social policy." },
+      { "titre": "Lifetime Achievement", "texte": "For a whole career devoted to humanitarian work and social development." }
+    ],
+    "criteres_titre": "Selection criteria",
+    "criteres": [
+      { "titre": "Social impact", "texte": "Number of people reached, lasting improvement in living conditions, measurable results." },
+      { "titre": "Commitment", "texte": "Consistency and duration of action, personal sacrifices made." },
+      { "titre": "Innovation", "texte": "Originality of the approach and an effective response to a social need." },
+      { "titre": "Integrity", "texte": "Ethics, transparency and the nominee's reputation." },
+      { "titre": "Sustainability", "texte": "Long-term continuity of the work and potential to replicate the model." }
+    ],
+    "recompenses_titre": "What the winner receives",
+    "recompenses": [
+      "Official KINA trophy",
+      "Certificate of honour",
+      "Cash award",
+      "National media coverage",
+      "Title of Ambassador for Children's Rights for the year"
+    ],
+    "solidarite": {
+      "titre": "The solidarity chain",
+      "texte": "The winner receives a personal award. A further share goes to an NGO or social project of their choice that serves children or women."
+    },
+    "gouvernance": [
+      { "titre": "Steering Committee", "texte": "Former ministers, judges, academics, religious leaders, journalists and civil society representatives." },
+      { "titre": "Independent jury", "texte": "Human rights defenders, child protection experts, representatives of international organisations and figures known for their integrity." }
+    ],
+    "horizons": [
+      { "periode": "Short term", "texte": "Become the national benchmark for humanitarian awards in Côte d'Ivoire." },
+      { "periode": "Medium term", "texte": "Extend the Prize across West Africa." },
+      { "periode": "Long term", "texte": "Make the KINA Prize a leading African award for children, women's rights and humanitarian action." }
+    ]
+  },
+  "partenaires": {
+    "surtitre": "Become a partner",
+    "titre": "Protecting children is everyone's business.",
+    "texte": "International organisations, foundations, companies, institutions and media: join the campaign and the KINA Prize as a partner or sponsor. We welcome enquiries in English and French.",
+    "whatsapp_affiche": "(+225) 07 48 05 99 26",
+    "whatsapp_numero": "2250748059926",
+    "email": "issiaka.krouman@gmail.com",
+    "arguments": [
+      { "titre": "Visible commitment", "texte": "Your name linked to a cause that touches every family, with national media coverage." },
+      { "titre": "Social responsibility in action", "texte": "A concrete initiative at the heart of your corporate social responsibility." },
+      { "titre": "Impact on the ground", "texte": "Activities in schools, universities and rural regions." },
+      { "titre": "Rigorous governance", "texte": "A steering committee and an independent jury that guarantee the Prize's transparency." }
+    ]
+  },
+  "pied_de_page": {
+    "gauche": "© 2026 KINA NGO",
+    "droite": "Côte d'Ivoire"
+  }
+}

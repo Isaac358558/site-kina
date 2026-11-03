@@ -6,7 +6,7 @@ media:
 
 content:
   - name: site
-    label: Textes du site
+    label: Textes du site en français
     type: file
     path: content/site.json
     format: json
@@ -17,6 +17,164 @@ content:
         fields:
           - { name: titre_onglet, label: Titre de l'onglet du navigateur, type: string }
           - { name: description, label: Description pour Google, type: text }
+          - { name: lien_langue, label: Texte du bouton qui mène à l'autre langue, type: string }
+          - { name: google_verification, label: "Code de vérification Google Search Console (facultatif)", type: string }
+      - name: menu
+        label: Menu en haut de page
+        type: object
+        fields:
+          - { name: campagne, label: Lien « campagne », type: string }
+          - { name: prix, label: Lien « prix », type: string }
+          - { name: partenaires, label: Lien « partenaires », type: string }
+      - name: banniere
+        label: Bannière (haut de page)
+        type: object
+        fields:
+          - { name: image, label: Photo, type: image }
+          - { name: image_description, label: Description de la photo (accessibilité), type: string }
+          - { name: surtitre, label: Petit texte au-dessus du titre, type: string }
+          - { name: titre_debut, label: "Titre (début, en blanc)", type: string }
+          - { name: titre_rouge, label: Titre (partie en rouge), type: string }
+          - { name: titre_vert, label: Titre (partie en vert), type: string }
+          - { name: texte, label: Texte, type: text }
+          - { name: bouton_1, label: Bouton rouge, type: string }
+          - { name: bouton_2, label: Second bouton, type: string }
+      - name: engagements
+        label: Les 4 engagements (bandeau gris)
+        type: object
+        list: true
+        fields:
+          - { name: titre, label: Titre, type: string }
+          - { name: texte, label: Texte, type: string }
+      - name: acronyme
+        label: Signification de KINA
+        type: object
+        fields:
+          - { name: surtitre, label: Petit titre, type: string }
+          - name: lettres
+            label: Lettres
+            type: object
+            list: true
+            fields:
+              - { name: lettre, label: Lettre, type: string }
+              - { name: mot, label: Mot, type: string }
+              - { name: explication, label: Explication, type: string }
+      - name: campagne
+        label: La campagne
+        type: object
+        fields:
+          - { name: surtitre, label: Petit titre, type: string }
+          - { name: titre_debut, label: Titre (début), type: string }
+          - { name: titre_rouge, label: Titre (partie en rouge), type: string }
+          - { name: intro, label: Introduction, type: text }
+          - name: livre
+            label: Le livre
+            type: object
+            fields:
+              - { name: auteur, label: Auteur (couverture), type: string }
+              - { name: titre_couverture, label: Titre (couverture), type: string }
+              - { name: sous_titre_couverture, label: "Sous-titre (couverture, en vert)", type: string }
+              - { name: mention_couverture, label: Mention en bas de couverture, type: string }
+              - { name: surtitre, label: Petit titre, type: string }
+              - { name: titre, label: Titre, type: string }
+              - { name: texte, label: Texte, type: text }
+          - name: etapes
+            label: Étapes de la campagne
+            type: object
+            list: true
+            fields:
+              - { name: titre, label: Titre, type: string }
+              - { name: texte, label: "Texte (mettre *entre étoiles* pour l'italique)", type: text }
+              - { name: bouton_texte, label: Texte du bouton (laisser vide si aucun), type: string }
+              - { name: bouton_lien, label: Lien du bouton, type: string }
+      - name: prix
+        label: Le Prix KINA
+        type: object
+        fields:
+          - { name: surtitre, label: Petit titre, type: string }
+          - { name: titre, label: Titre, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - { name: devise, label: Devise, type: string }
+          - name: grand_prix
+            label: Grand Prix
+            type: object
+            fields:
+              - { name: titre, label: Titre, type: string }
+              - { name: texte, label: Texte, type: text }
+          - name: categories
+            label: Catégories
+            type: object
+            list: true
+            fields:
+              - { name: titre, label: Titre, type: string }
+              - { name: texte, label: Texte, type: text }
+          - { name: criteres_titre, label: Titre des critères, type: string }
+          - name: criteres
+            label: Critères de sélection
+            type: object
+            list: true
+            fields:
+              - { name: titre, label: Titre, type: string }
+              - { name: texte, label: Texte, type: text }
+          - { name: recompenses_titre, label: Titre des récompenses, type: string }
+          - { name: recompenses, label: Récompenses, type: string, list: true }
+          - name: solidarite
+            label: Encadré vert « chaîne de solidarité »
+            type: object
+            fields:
+              - { name: titre, label: Titre, type: string }
+              - { name: texte, label: Texte, type: text }
+          - name: gouvernance
+            label: Gouvernance
+            type: object
+            list: true
+            fields:
+              - { name: titre, label: Titre, type: string }
+              - { name: texte, label: Texte, type: text }
+          - name: horizons
+            label: Ambitions (court, moyen, long terme)
+            type: object
+            list: true
+            fields:
+              - { name: periode, label: Période, type: string }
+              - { name: texte, label: Texte, type: text }
+      - name: partenaires
+        label: Devenir partenaire
+        type: object
+        fields:
+          - { name: surtitre, label: Petit titre, type: string }
+          - { name: titre, label: Titre, type: string }
+          - { name: texte, label: Texte, type: text }
+          - { name: whatsapp_affiche, label: Numéro WhatsApp (tel qu'affiché), type: string }
+          - { name: whatsapp_numero, label: "Numéro WhatsApp (chiffres seuls, avec 225)", type: string }
+          - { name: email, label: E-mail, type: string }
+          - name: arguments
+            label: Pourquoi devenir partenaire
+            type: object
+            list: true
+            fields:
+              - { name: titre, label: Titre, type: string }
+              - { name: texte, label: Texte, type: text }
+      - name: pied_de_page
+        label: Pied de page
+        type: object
+        fields:
+          - { name: gauche, label: Texte à gauche, type: string }
+          - { name: droite, label: Texte à droite, type: string }
+
+  - name: site_en
+    label: Textes du site en anglais (page /en/)
+    type: file
+    path: content/site.en.json
+    format: json
+    fields:
+      - name: seo
+        label: Référencement (Google)
+        type: object
+        fields:
+          - { name: titre_onglet, label: Titre de l'onglet du navigateur, type: string }
+          - { name: description, label: Description pour Google, type: text }
+          - { name: lien_langue, label: Texte du bouton qui mène à l'autre langue, type: string }
       - name: menu
         label: Menu en haut de page
         type: object
